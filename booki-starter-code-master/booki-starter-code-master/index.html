@@ -28,27 +28,28 @@
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
             <p>en plein centre-ville ou en pleine nature</p>
         </div>
-        <form method="get" action="#">
-            <p>
-                <label for="ville"><i class="fa-solid fa-location-dot"></i></label> 
-                <input type="text" name="ville" id="ville" placeholder="Ex. : Marseille, France" size="30" maxlength="45" autofocus>
-                <input type="button" value="icone recherche">
-            </p>
-        </form>
+        <div class="formulaire">
+            <form method="get" action="#">
+                <p>
+                    <label for="ville"><i class="fa-solid fa-location-dot"></i></label> 
+                    <input type="text" name="ville" id="ville" placeholder="Ex. : Marseille, France" size="30" maxlength="45" autofocus>
+                    <button> Rechercher</button>
+                </p>
+            </form>
+        </div>
+
         <div class="filtre">
-            <a href="#">
-                <strong>Flitres</strong>
-                <i class="fa-solid fa-money-bill-wave"><input style= "border:0px" type="button" value="Economique"></i>
-                <i class="fa-solid fa-person"><input style= "border:0px" type="button" value="Familial"></i>
-                <i class="fa-solid fa-heart"><input style= "border:0px" type="button" value="Romantique"></i>
-                <i class="fa-solid fa-fire"><input style= "border:0px" type="button" value="Nos pépites"></i>
-                
+            <strong>Flitres</strong>
+            <a href="#"> 
+                <button><i class="fa-solid fa-money-bill-wave"></i> Economique</button>
+                <button><i class="fa-solid fa-person"></i> Familial</button>
+                <button><i class="fa-solid fa-heart"></i> Romantique</button>
+                <button><i class="fa-solid fa-fire"></i> Nos Pépites</button>
             </a>
         </div>
         <main>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
             <div class="hebergements-and-populaires">
-                <!-- utiliser des box pour l'alignement (flexbox) -->
                 <section class="hebergements" id="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergement à Marseille</h2>
