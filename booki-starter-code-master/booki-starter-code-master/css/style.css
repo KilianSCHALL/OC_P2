@@ -140,10 +140,9 @@ header .logo img {
 header .navigation {
     width: 344px;
     height: 35px;
-    left: 1096px;
     padding-left: 50px;
-    padding-right: 50px;
-    gap: 68px;
+    display: flex;
+    gap: 30px;
 }
 
 header a:hover {
@@ -158,6 +157,8 @@ a {
 a:hover {
     color: #0065FC;
 }
+
+
 
 .section-title {
     margin: 0;
@@ -211,19 +212,22 @@ a:hover {
 .hebergements-lieux {
     display:flex;
     flex-wrap:wrap;
-    padding-left: 30px;
     padding-right: 30px;
     margin-top: 15px;
-    gap:30px;
+    gap:20px;
 }
 
 .hebergements-lieux .card {
-    width: calc( (100% / 3) - (60px / 3));
+    width: calc( (100% / 3) - (40px / 3));
     height: 245px;
     background:#ffffff;
     border-radius:20px;
     padding: 0px 0px 15px 0px;
-    gap: 4px;
+    margin-bottom: 15px;
+}
+
+.hebergements-lieux .card-content {
+    padding-left: 15px;
 }
 
 .hebergements-lieux img {
@@ -231,7 +235,9 @@ a:hover {
     height: 124px;
     border-radius: 20px 20px 0px 0px;
     border: 5px;
+    padding: 5px 5px 5px 5px;
 }
+
 
 
 /****** Populaires ***********/
@@ -281,36 +287,37 @@ a:hover {
 /****** Marseille ***********/
 
 .activite-a-marseille {
-    width: 1340px;
-    height: 560px;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    gap: 30px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    margin-bottom: 60px;
 }
 
 /* activités a marseille */
 
 .activite-marseille {
-    width: 1280px;
-    height: 439px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .activite-title {
-    width: 1280px;
+    width: 100%;
     padding-bottom: 30px;
+    padding-left: 10px;
 }
 
 .card-activities {
     background-color: white;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    gap: 30px;
     border-radius: 20px;
+    width: calc( (100% / 4) - (90px / 4));
 }
 .card-activities img {
-    width: 297.5px;
+    width: 100%;
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -324,7 +331,7 @@ a:hover {
 
 footer {
     background-color: #F2F2F2;
-    width: 1340px;
+    width: 100%;
     height: 163px;
 }
 .informations { 
@@ -334,17 +341,17 @@ footer {
 }
 
 .informations .A-propos {
-    width: 447px;
+    width: 100%;
     height: 163px;
 }
 
 .informations .hebergements-info {
-    width: 447px;
+    width: 100%;
     height: 163px;
 }
 
 .informations .Assistance {
-    width: 447px;
+    width: 100%;
     height: 163px;
 }
 
